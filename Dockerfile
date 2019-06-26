@@ -1,4 +1,4 @@
-FROM 3.7.3-slim-stretch
+FROM python:3.7.3-slim-stretch
 
 RUN mkdir /app
 
