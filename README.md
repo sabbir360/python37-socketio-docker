@@ -11,4 +11,4 @@ If You written any Code and want to use this image directly, you must keep a `Se
 
 Then do below:
 
-    `docker run --itd --name socket.io -p 5000:5000 -v /path/to/your/code:/app sabbir1cse/python37-socketio:latest`
+    docker run -itd --name socket.io -p 5000:5000 -v /path/to/your/code:/app sabbir1cse/python37-socketio:latest
