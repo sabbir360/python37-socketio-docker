@@ -1,6 +1,8 @@
 FROM python:3.7.3-slim-stretch
 
-RUN apt-get update && apt-get -y upgrade & apt-get install -y build-essential libssl-dev libffi-dev nano default-libmysqlclient-dev
+RUN apt-get update && apt-get -y upgrade
+
+RUN apt-get install -y build-essential libssl-dev libffi-dev nano default-libmysqlclient-dev
 
 RUN mkdir /app
 
