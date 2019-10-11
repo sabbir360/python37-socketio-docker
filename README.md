@@ -14,5 +14,7 @@ Then do below:
     docker run -itd --name socket.io -p 5000:5000 -v /path/to/your/code:/app sabbir1cse/python37-socketio:latest
 
 
-## Extra Info.
-For Mysql and Peewee (Python ORM) using tag **mysqldriver**
+## Hints
+Use TAG ***mysqldriver** for:
+ - Mysql
+ - Peewee (Python ORM)
